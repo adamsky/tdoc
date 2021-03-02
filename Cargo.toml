@@ -1,0 +1,18 @@
+[package]
+name = "tdoc"
+version = "0.1.0"
+authors = ["adamsky <adamsky@enum.space>"]
+edition = "2018"
+description = "Explore rustdoc documentation from within the terminal"
+keywords = ["tui", "rustdoc", "documentation", "terminal", "interface"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+tui = { version = "0.10", default-features = false, features = ["crossterm"] }
+crossterm = "0.17.7"
+select = "0.5.0"
+anyhow = "1.0.32"
+
+#html2text = "0.2.0"
+#webbrowser = "0.5.5"
+#termimad ="0.8.26"
